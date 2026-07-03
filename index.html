@@ -137,11 +137,11 @@ header.scrolled{
 .hero-bg{
   position:absolute;inset:0;z-index:0;
   background:url('https://raw.githubusercontent.com/agelmet/MPELLOU/0f89f94c1586a995434dffe3228f7df6477f1604/unnamed-80.jpg') center/cover no-repeat;
-  transform:scale(1.12);will-change:transform;
+  will-change:transform;
 }
 .hero-veil{
   position:absolute;inset:0;z-index:1;
-  background:linear-gradient(105deg,rgba(251,247,242,.96) 0%,rgba(251,247,242,.86) 38%,rgba(251,247,242,.35) 70%,rgba(169,205,214,.25) 100%);
+  background:linear-gradient(105deg,rgba(251,247,242,.88) 0%,rgba(251,247,242,.65) 38%,rgba(251,247,242,.10) 70%,rgba(169,205,214,.05) 100%);
 }
 .hero-inner{position:relative;z-index:2;width:100%}
 .hero-content{max-width:660px}
@@ -423,7 +423,8 @@ footer{background:linear-gradient(160deg,#2f2a26,#26221f);color:#e8e0d6;padding:
     <path d="M16 28S2 19 2 9.5C2 5 5.5 2 9 2c2.5 0 4.5 1.5 6 4 1.5-2.5 3.5-4 6-4 3.5 0 7 3 7 7.5C28 19 16 28 16 28Z" fill="url(#g)"/>
     <defs><linearGradient id="g" x1="2" y1="2" x2="28" y2="28"><stop stop-color="#e8a0a8"/><stop offset="1" stop-color="#a9cdd6"/></linearGradient></defs>
   </svg>
-  <div class="pl-text">Τα παιδιά είναι το χαμόγελο του Θεού</div>
+  <div class="pl-text" lang-el>Τα παιδιά είναι το χαμόγελο του Θεού</div>
+  <div class="pl-text" lang-en>Children are the smile of God</div>
 </div>
 
 <div id="progress"></div>
@@ -440,7 +441,8 @@ footer{background:linear-gradient(160deg,#2f2a26,#26221f);color:#e8e0d6;padding:
         <path d="M22 33h5l2-5 3 8 2.5-4H42" stroke="#fff" stroke-width="2.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
       </svg>
       <span class="brand-txt">
-        <span class="brand-name">Βάσω Ανέστη-Μπέλλου</span>
+        <span class="brand-name" lang-el>Βάσω Ανέστη-Μπέλλου</span>
+        <span class="brand-name" lang-en>Vaso Anesti-Bellou</span>
         <span class="brand-sub" lang-el>Παιδίατρος</span><span class="brand-sub" lang-en>Pediatrician</span>
       </span>
     </a>
@@ -681,7 +683,14 @@ footer{background:linear-gradient(160deg,#2f2a26,#26221f);color:#e8e0d6;padding:
         </div>
         <div class="ci">
           <div class="ci-ic"><svg viewBox="0 0 24 24" fill="none" stroke="#d9b26a" stroke-width="1.8"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
-          <div><div class="ci-lbl" lang-el>Διεύθυνση</div><div class="ci-lbl" lang-en>Address</div><div class="ci-val">Ερμή Σουρλατζή 11, Κορωπί, Αττική</div></div>
+          <div>
+            <div class="ci-lbl" lang-el>Διεύθυνση</div>
+            <div class="ci-lbl" lang-en>Address</div>
+            <div class="ci-val">
+              <span lang-el>Ερμή Σουρλατζή 11, Κορωπί, Αττική</span>
+              <span lang-en>Ermi Sourlatzi 11, Koropi, Attica</span>
+            </div>
+          </div>
         </div>
         <div class="map-wrap">
           <iframe loading="lazy" src="https://www.google.com/maps?q=Ermi+Sourlatzi+11+Koropi+Attica&output=embed" title="Map"></iframe>
@@ -716,7 +725,12 @@ footer{background:linear-gradient(160deg,#2f2a26,#26221f);color:#e8e0d6;padding:
             <path d="M32 50S14 39 14 27c0-6 4.5-10 9.5-10 3.5 0 6 2 8.5 5 2.5-3 5-5 8.5-5 5 0 9.5 4 9.5 10C50 39 32 50 32 50Z" fill="url(#lgf)"/>
             <path d="M22 33h5l2-5 3 8 2.5-4H42" stroke="#fff" stroke-width="2.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
           </svg>
-          <div><div class="foot-name">Βάσω Ανέστη‑Μπέλλου</div><div class="foot-sub" lang-el>Παιδίατρος</div><div class="foot-sub" lang-en>Pediatrician</div></div>
+          <div>
+            <div class="foot-name" lang-el>Βάσω Ανέστη‑Μπέλλου</div>
+            <div class="foot-name" lang-en>Vaso Anesti‑Bellou</div>
+            <div class="foot-sub" lang-el>Παιδίατρος</div>
+            <div class="foot-sub" lang-en>Pediatrician</div>
+          </div>
         </div>
         <p class="foot-desc" lang-el>Υψηλής ποιότητας παιδιατρική φροντίδα στο Κορωπί Αττικής, με αγάπη και επιστημονική γνώση από το 1998.</p>
         <p class="foot-desc" lang-en>High‑quality pediatric care in Koropi, Attica, with love and scientific knowledge since 1998.</p>
@@ -733,11 +747,14 @@ footer{background:linear-gradient(160deg,#2f2a26,#26221f);color:#e8e0d6;padding:
         <h5 lang-el>Επικοινωνία</h5><h5 lang-en>Contact</h5>
         <a href="tel:+306944726444">694 472 6444</a>
         <a href="mailto:basilikempellou922@gmail.com">basilikempellou922@gmail.com</a>
-        <p>Ερμή Σουρλατζή 11<br>Κορωπί, Αττική</p>
+        <p>
+          <span lang-el>Ερμή Σουρλατζή 11<br>Κορωπί, Αττική</span>
+          <span lang-en>Ermi Sourlatzi 11<br>Koropi, Attica</span>
+        </p>
       </div>
     </div>
     <div class="foot-bottom">
-      <p>© <span id="year"></span> Βάσω Γ. Ανέστη‑Μπέλλου. <span lang-el>Με επιφύλαξη παντός δικαιώματος.</span><span lang-en>All rights reserved.</span></p>
+      <p>© <span id="year"></span> <span lang-el>Βάσω Γ. Ανέστη‑Μπέλλου.</span><span lang-en>Vaso G. Anesti‑Bellou.</span> <span lang-el>Με επιφύλαξη παντός δικαιώματος.</span><span lang-en>All rights reserved.</span></p>
       <p class="foot-credit">Designed by <a href="https://www.advonmedia.com" target="_blank" rel="noopener">Advon Media</a></p>
     </div>
   </div>
@@ -842,8 +859,6 @@ footer{background:linear-gradient(160deg,#2f2a26,#26221f);color:#e8e0d6;padding:
     header.classList.toggle('scrolled',y>40);
     var h=document.documentElement.scrollHeight-window.innerHeight;
     progress.style.width=(y/h*100)+'%';
-    var hb=document.getElementById('heroBg');
-    if(hb&&y<window.innerHeight)hb.style.transform='scale(1.12) translateY('+(y*0.18)+'px)';
   });
 
   /* Reveal observer */
